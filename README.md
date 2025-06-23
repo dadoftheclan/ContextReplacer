@@ -23,8 +23,6 @@
 > With Clansoft Classic Fix Applied  
 ![Classic Context Menu](screenshots/windows10-classic-context-menu.png)
 
-*(Replace these screenshots with your own for accuracy)*
-
 ---
 
 ## 🛠️ How to Use
@@ -32,10 +30,10 @@
 ### 🔹 Option 1: Run the Script Manually
 
 1. Open **PowerShell as Administrator**
-2. Paste and run the contents of [`EnableClassicContextMenu.ps1`](EnableClassicContextMenu.ps1)
+2. Paste and run the contents of [`Context.ps1`](Context.ps1)
 
 ### 🔹 Option 2: Download & Execute
 
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/YOUR-USERNAME/REPO-NAME/main/EnableClassicContextMenu.ps1" -OutFile "EnableClassicContextMenu.ps1"
-Start-Process powershell -Verb runAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PWD\EnableClassicContextMenu.ps1`""
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/dadoftheclan/ContextReplacer/main/Context.ps1" -OutFile "Context.ps1"
+Start-Process powershell -Verb runAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PWD\Context.ps1`""
